@@ -25,10 +25,8 @@
     "email": "shuhei.kagawa@gmail.com"
   },
   "license": "ISC",
-  "dependencies": {
-    "cheerio": "^0.17.0"
-  },
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "cheerio": "^0.17.0"
   }
 }
