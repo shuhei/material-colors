@@ -1,5 +1,3 @@
-var fs = require('fs');
-var path = require('path');
 var fetch = require('../lib/fetch');
 
 module.exports = function(grunt) {
@@ -13,8 +11,7 @@ module.exports = function(grunt) {
       }
 
       var json = JSON.stringify(colorSet, null, 2);
-      var jsonPath = path.resolve(__dirname, '..', 'dist', 'colors.json');
-      fs.writeFileSync(jsonPath, json);
+      grunt.file.write('dist/colors.json', json);
       done();
     });
   });
