@@ -1,0 +1,8 @@
+<% _.forEach(colorSet, function(group, groupName) { _.forEach(group, function(hex, shade) { %>.color-<%= groupName %>-<%= shade %> { color: <%= hex %>; }
+.bg-<%= groupName %>-<%= shade %> { background-color: <%= hex %>; }
+.border-<%= groupName %>-<%= shade %> { border-color: <%= hex %>; }
+.fill-<%= groupName %>-<%= shade %> { fill: <%= hex %>; }
+.stroke-<%= groupName %>-<%= shade %> { stroke: <%= hex %>; }
+<% }); %>
+
+<% }); %>

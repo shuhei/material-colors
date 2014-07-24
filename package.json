@@ -1,0 +1,17 @@
+{
+  "name": "material-colors",
+  "version": "0.0.0",
+  "description": "Colors of Google's Material Design made available to coders",
+  "main": "colors.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shuhei Kagawa <shuhei.kagawa@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.17.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
