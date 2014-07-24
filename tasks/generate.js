@@ -11,7 +11,7 @@ function generate(grunt, fileType) {
 }
 
 module.exports = function(grunt) {
-  var fileTypes = ['css', 'sass', 'less'];
+  var fileTypes = ['css', 'sass', 'scss', 'less'];
   fileTypes.forEach(function(fileType) {
     grunt.registerTask(fileType, function() {
       generate(grunt, fileType);
