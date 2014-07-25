@@ -9,3 +9,6 @@ The colors are scraped from the guide. The idea to publish colors in multiple fo
 - CSS: Classes for prototyping such as `.color-red-100`, `.bg-red-100`, `.border-red-100`, `.fill-red-100` and `.stroke-red-100`.
 - Sass, Scss: Color variables such as `$md-red-100`.
 - Less: Color variables such as `@md-red-100`.
+- JSON: Raw data of colors.
+
+See [dist directory](dist) for more detail.
