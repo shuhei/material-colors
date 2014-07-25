@@ -1,3 +1,6 @@
+[![Bower version](https://badge.fury.io/bo/material-colors.svg)](http://badge.fury.io/bo/material-colors)
+[![NPM version](https://badge.fury.io/js/material-colors.svg)](http://badge.fury.io/js/material-colors)
+
 # Material Colors
 
 Colors from [Google's Material Design](http://www.google.com/design/spec/style/color.html) made available to coders.
