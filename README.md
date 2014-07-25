@@ -15,3 +15,17 @@ The colors are scraped from the guide. The idea to publish colors in multiple fo
 - JSON: Raw data of colors.
 
 See [dist directory](dist) for more detail.
+
+## Usage
+
+### Download
+
+Download what you like from [dist directory](dist) and use it.
+
+### Bower
+
+```
+bower install material-colors
+```
+
+and use what you like in `bower_components/material-colors/dist`.
