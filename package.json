@@ -11,7 +11,8 @@
     "css",
     "sass",
     "scss",
-    "less"
+    "less",
+    "stylus"
   ],
   "repository": {
     "type": "git",

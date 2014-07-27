@@ -13,7 +13,8 @@
     "css",
     "sass",
     "scss",
-    "less"
+    "less",
+    "stylus"
   ],
   "license": "ISC",
   "ignore": [
