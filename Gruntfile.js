@@ -4,5 +4,5 @@ module.exports = function(grunt) {
 
   grunt.loadTasks('tasks');
 
-  grunt.registerTask('default', ['json', 'css', 'sass', 'scss', 'less', 'styl']);
+  grunt.registerTask('default', ['json', 'css', 'sass', 'scss', 'less', 'styl', 'js']);
 };

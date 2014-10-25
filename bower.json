@@ -14,7 +14,8 @@
     "sass",
     "scss",
     "less",
-    "stylus"
+    "stylus",
+    "javascript"
   ],
   "license": "ISC",
   "ignore": [

@@ -14,6 +14,7 @@ The colors are scraped from the guide. The idea to publish colors in multiple fo
 - Less: Color variables such as `@md-red-100`.
 - Stylus: Color variables such as `md-red-100`.
 - JSON: Raw data of colors.
+- JavaScript: Color set object provided via AMD, CommonJS or global variable `materialColor`.
 
 See [dist directory](dist) for more detail.
 
