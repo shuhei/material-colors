@@ -13,8 +13,8 @@ The colors are scraped from the guide. The idea to publish colors in multiple fo
 - Sass, Scss: Color variables such as `$md-red-100`.
 - Less: Color variables such as `@md-red-100`.
 - Stylus: Color variables such as `md-red-100`.
-- JSON: Raw data of colors.
-- JavaScript: Color set object provided via AMD, CommonJS or global variable `materialColor`.
+- JSON: Raw data of colors. Key names are hypenated. e.g. `deep-purple`
+- JavaScript: Color set object provided via AMD, CommonJS or global variable `materialColor`. Key names are camelcase. e.g. `deepPurple`
 
 See [dist directory](dist) for more detail.
 
