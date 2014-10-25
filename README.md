@@ -16,7 +16,7 @@ The colors are scraped from the guide. The idea to publish colors in multiple fo
 - JSON: Raw data of colors. Key names are hypenated. e.g. `deep-purple`
 - JavaScript: Color set object provided via AMD, CommonJS or global variable `materialColor`. Key names are camelcase. e.g. `deepPurple`
 
-See [dist directory](dist) for more detail.
+See [dist directory](dist) or [demo](http://shuheikagawa.com/material-colors/) for more details.
 
 ## Usage
 
@@ -31,3 +31,9 @@ bower install material-colors
 ```
 
 and use what you like in `bower_components/material-colors/dist`.
+
+### NPM
+
+```
+npm install material-colors
+```
