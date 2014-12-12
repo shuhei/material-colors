@@ -1306,15 +1306,18 @@
 .stroke-blue-grey-900 { stroke: #263238; }
 
 
-.color--black { color: #000000; }
-.bg--black { background-color: #000000; }
-.border--black { border-color: #000000; }
-.fill--black { fill: #000000; }
-.stroke--black { stroke: #000000; }
-.color--white { color: #ffffff; }
-.bg--white { background-color: #ffffff; }
-.border--white { border-color: #ffffff; }
-.fill--white { fill: #ffffff; }
-.stroke--white { stroke: #ffffff; }
+.color-white { color: #ffffff; }
+.bg-white { background-color: #ffffff; }
+.border-white { border-color: #ffffff; }
+.fill-white { fill: #ffffff; }
+.stroke-white { stroke: #ffffff; }
+
+
+.color-black { color: #000000; }
+.bg-black { background-color: #000000; }
+.border-black { border-color: #000000; }
+.fill-black { fill: #000000; }
+.stroke-black { stroke: #000000; }
+
 
 

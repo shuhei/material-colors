@@ -29,6 +29,6 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "cheerio": "^0.17.0"
+    "cheerio": "^0.18.0"
   }
 }
