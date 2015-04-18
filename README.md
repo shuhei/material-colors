@@ -1,5 +1,6 @@
-[![Bower version](https://badge.fury.io/bo/material-colors.svg)](http://badge.fury.io/bo/material-colors)
-[![NPM version](https://badge.fury.io/js/material-colors.svg)](http://badge.fury.io/js/material-colors)
+[![Bower version](https://img.shields.io/bower/v/material-colors.svg)](https://github.com/shuhei/material-colors)
+[![NPM version](https://img.shields.io/npm/v/material-colors.svg)](https://www.npmjs.com/package/material-colors)
+[![NPM downloads](https://img.shields.io/npm/dm/material-colors.svg)](https://www.npmjs.com/package/material-colors)
 
 # Material Colors
 
