@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "Colors of Google's Material Design made available to coders",
   "main": "dist/colors.js",
+  "scripts": {
+    "start": "grunt"
+  },
   "keywords": [
     "colors",
     "palette",
@@ -28,7 +31,8 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "cheerio": "^0.18.0",
     "grunt": "^0.4.5",
-    "cheerio": "^0.18.0"
+    "grunt-cli": "^1.2.0"
   }
 }
