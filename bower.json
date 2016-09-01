@@ -1,6 +1,10 @@
 {
   "name": "material-colors",
   "version": "1.1.0",
+  "main": [
+    "./dist/colors.css",
+    "./dist/colors.js"
+  ],
   "homepage": "https://github.com/shuhei/material-colors",
   "authors": [
     "Shuhei Kagawa <shuhei.kagawa@gmail.com>"
