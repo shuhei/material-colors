@@ -2,7 +2,7 @@ var hyphen2camel = require('../lib/hyphen2camel');
 
 function generate(grunt, fileType) {
   var colorSet = grunt.file.readJSON('dist/colors.json');
-  if (fileType === 'js') {
+  if (fileType === 'js' || fileType === 'es2015.js') {
     colorSet = camelizeKeys(colorSet);
   }
   var tmpl = grunt.file.read('templates/' + fileType + '.tmpl');
@@ -21,7 +21,7 @@ function camelizeKeys(obj) {
 }
 
 module.exports = function(grunt) {
-  var fileTypes = ['css', 'sass', 'scss', 'less', 'styl', 'js'];
+  var fileTypes = ['css', 'sass', 'scss', 'less', 'styl', 'js', 'es2015.js'];
   fileTypes.forEach(function(fileType) {
     grunt.registerTask(fileType, function() {
       generate(grunt, fileType);
