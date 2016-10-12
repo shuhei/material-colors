@@ -21,7 +21,7 @@ function camelizeKeys(obj) {
 }
 
 module.exports = function(grunt) {
-  var fileTypes = ['css', 'sass', 'scss', 'less', 'styl', 'js', 'es2015.js'];
+  var fileTypes = ['css', 'var.css', 'sass', 'scss', 'less', 'styl', 'js', 'es2015.js'];
   fileTypes.forEach(function(fileType) {
     grunt.registerTask(fileType, function() {
       generate(grunt, fileType);
