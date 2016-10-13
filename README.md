@@ -11,11 +11,13 @@ The colors are scraped from the guide. The idea to publish colors in multiple fo
 ## Available Forms
 
 - CSS: Classes for prototyping such as `.color-red-100`, `.bg-red-100`, `.border-red-100`, `.fill-red-100` and `.stroke-red-100`.
+- CSS variables such as `--md-red-100`.
 - Sass, Scss: Color variables such as `$md-red-100`.
 - Less: Color variables such as `@md-red-100`.
 - Stylus: Color variables such as `md-red-100`.
 - JSON: Raw data of colors. Key names are hypenated. e.g. `deep-purple`
-- JavaScript: Color set object provided via AMD, CommonJS or global variable `materialColor`. Key names are camelcase. e.g. `deepPurple`
+- JavaScript: Color set object provided via AMD, CommonJS or global variable `materialColor`. Key names are camelCase. e.g. `deepPurple`
+- EcmaScript module: Color variables are exported as camelCase names.
 
 See [dist directory](dist) or [demo](http://shuheikagawa.com/material-colors/) for more details.
 
