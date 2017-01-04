@@ -4,6 +4,7 @@
   "version": "1.2.2",
   "description": "Colors of Google's Material Design made available to coders",
   "main": "dist/colors.js",
+  "jsnext:main": "dist/colors.es2015.js",
   "module": "dist/colors.es2015.js",
   "scripts": {
     "start": "grunt"
