@@ -1,3 +1,7 @@
 <% Object.keys(colorSet).forEach(function (k) {
 %>export var <%= k %> = <%= JSON.stringify(colorSet[k]) %>;
 <% }); %>
+export default {
+<% Object.keys(colorSet).forEach(function (k, i) {
+%>  <%= k %>: <%= k %><%= i < Object.keys(colorSet).length - 1 ? ',' : '' %>
+<% }); %>};
