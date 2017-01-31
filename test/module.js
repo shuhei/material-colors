@@ -1,7 +1,6 @@
 var test = require('tape');
 var fs = require('fs');
 var path = require('path');
-var os = require('os');
 var tmp = require('tmp');
 var rollup = require('rollup');
 var execSync = require('child_process').execSync;
@@ -19,11 +18,11 @@ fixtures.forEach(function (fixture) {
         var js = bundle.generate({ format: 'es' }).code;
 
         var tmpfile = tmp.fileSync().name;
-        var command = [node, tmpfile].join(' ');
+        var command = `"${node}" ${tmpfile}`;
         fs.writeFileSync(tmpfile, js);
-        var stdout = execSync(command).toString();
+        var stdout = execSync(command).toString().trim();
 
-        t.equal(stdout, '#ffebee' + os.EOL);
+        t.equal(stdout, '#ffebee');
       });
   });
 });
