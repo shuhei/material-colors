@@ -1,6 +1,7 @@
 [![Bower version](https://img.shields.io/bower/v/material-colors.svg)](https://github.com/shuhei/material-colors)
 [![NPM version](https://img.shields.io/npm/v/material-colors.svg)](https://www.npmjs.com/package/material-colors)
 [![NPM downloads](https://img.shields.io/npm/dm/material-colors.svg)](https://www.npmjs.com/package/material-colors)
+[![CircleCI](https://circleci.com/gh/shuhei/material-colors.svg?style=shield)](https://circleci.com/gh/shuhei/material-colors)
 
 # Material Colors
 
