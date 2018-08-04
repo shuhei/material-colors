@@ -17,12 +17,12 @@ export var deepOrange = {"50":"#fbe9e7","100":"#ffccbc","200":"#ffab91","300":"#
 export var brown = {"50":"#efebe9","100":"#d7ccc8","200":"#bcaaa4","300":"#a1887f","400":"#8d6e63","500":"#795548","600":"#6d4c41","700":"#5d4037","800":"#4e342e","900":"#3e2723"};
 export var grey = {"50":"#fafafa","100":"#f5f5f5","200":"#eeeeee","300":"#e0e0e0","400":"#bdbdbd","500":"#9e9e9e","600":"#757575","700":"#616161","800":"#424242","900":"#212121"};
 export var blueGrey = {"50":"#eceff1","100":"#cfd8dc","200":"#b0bec5","300":"#90a4ae","400":"#78909c","500":"#607d8b","600":"#546e7a","700":"#455a64","800":"#37474f","900":"#263238"};
+export var black = "#000000";
+export var white = "#ffffff";
 export var darkText = {"primary":"rgba(0, 0, 0, 0.87)","secondary":"rgba(0, 0, 0, 0.54)","disabled":"rgba(0, 0, 0, 0.38)","dividers":"rgba(0, 0, 0, 0.12)"};
 export var lightText = {"primary":"rgba(255, 255, 255, 1)","secondary":"rgba(255, 255, 255, 0.7)","disabled":"rgba(255, 255, 255, 0.5)","dividers":"rgba(255, 255, 255, 0.12)"};
 export var darkIcons = {"active":"rgba(0, 0, 0, 0.54)","inactive":"rgba(0, 0, 0, 0.38)"};
 export var lightIcons = {"active":"rgba(255, 255, 255, 1)","inactive":"rgba(255, 255, 255, 0.5)"};
-export var white = "#ffffff";
-export var black = "#000000";
 
 export default {
   red: red,
@@ -44,10 +44,10 @@ export default {
   brown: brown,
   grey: grey,
   blueGrey: blueGrey,
+  black: black,
+  white: white,
   darkText: darkText,
   lightText: lightText,
   darkIcons: darkIcons,
-  lightIcons: lightIcons,
-  white: white,
-  black: black
+  lightIcons: lightIcons
 };
