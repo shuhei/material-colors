@@ -35,7 +35,7 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
-    "material-colors-object": "^1.0.0",
+    "material-colors-object": "1.0.0",
     "rollup": "^0.40.2",
     "tape": "^4.6.3",
     "tmp": "0.0.31"
