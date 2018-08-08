@@ -6,6 +6,8 @@ const keys = Object.keys;
 function reduceColorShades(color) {
   const colorShadeReducer = (acc, shadeKey) => {
     acc[shadeKey] = color.shades[shadeKey].value;
+    acc[`${shadeKey}-light`] = color.shades[shadeKey].lightValue;
+    acc[`${shadeKey}-dark`] = color.shades[shadeKey].darkValue;
     return acc;
   }
   return keys(color.shades).reduce(colorShadeReducer, {});
