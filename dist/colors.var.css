@@ -272,6 +272,10 @@
 --md-blue-grey-800: #37474f;
 --md-blue-grey-900: #263238;
 
+--md-black: #000000;
+
+--md-white: #ffffff;
+
 --md-dark-text-primary: rgba(0, 0, 0, 0.87);
 --md-dark-text-secondary: rgba(0, 0, 0, 0.54);
 --md-dark-text-disabled: rgba(0, 0, 0, 0.38);
@@ -287,10 +291,6 @@
 
 --md-light-icons-active: rgba(255, 255, 255, 1);
 --md-light-icons-inactive: rgba(255, 255, 255, 0.5);
-
---md-white: #ffffff;
-
---md-black: #000000;
 
 
 }

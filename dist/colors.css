@@ -1306,6 +1306,20 @@
 .stroke-blue-grey-900 { stroke: #263238; }
 
 
+.color-black { color: #000000; }
+.bg-black { background-color: #000000; }
+.border-black { border-color: #000000; }
+.fill-black { fill: #000000; }
+.stroke-black { stroke: #000000; }
+
+
+.color-white { color: #ffffff; }
+.bg-white { background-color: #ffffff; }
+.border-white { border-color: #ffffff; }
+.fill-white { fill: #ffffff; }
+.stroke-white { stroke: #ffffff; }
+
+
 .color-dark-text-primary { color: rgba(0, 0, 0, 0.87); }
 .bg-dark-text-primary { background-color: rgba(0, 0, 0, 0.87); }
 .border-dark-text-primary { border-color: rgba(0, 0, 0, 0.87); }
@@ -1372,20 +1386,6 @@
 .border-light-icons-inactive { border-color: rgba(255, 255, 255, 0.5); }
 .fill-light-icons-inactive { fill: rgba(255, 255, 255, 0.5); }
 .stroke-light-icons-inactive { stroke: rgba(255, 255, 255, 0.5); }
-
-
-.color-white { color: #ffffff; }
-.bg-white { background-color: #ffffff; }
-.border-white { border-color: #ffffff; }
-.fill-white { fill: #ffffff; }
-.stroke-white { stroke: #ffffff; }
-
-
-.color-black { color: #000000; }
-.bg-black { background-color: #000000; }
-.border-black { border-color: #000000; }
-.fill-black { fill: #000000; }
-.stroke-black { stroke: #000000; }
 
 
 
