@@ -1,7 +1,7 @@
 {
   "name": "material-colors",
   "homepage": "https://github.com/shuhei/material-colors",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Colors of Google's Material Design made available to coders",
   "main": "dist/colors.js",
   "module": "dist/colors.es2015.js",
